@@ -1,13 +1,30 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="food.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FOODIE</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<style>
+		body{
+			background-image:url("bg.jpeg");
+			background-size: cover;
+		}
+		div.gallery{
+			margin: 5px;
+		        border-radius: 30px;
+		        float: left;
+		}
+		.gallery img{
+		       width:85px;
+		       height:75px;
+	        }  
+	</style>
 </head>
-<body>
-	<img src=  width="300" height="300" align="center">
-	<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/truffle/truffle3.jpg" width="200" height="200" align="right">
-<br>
-<h1>CHOCOLATE TRUFFLE</h1>
-	<h3>Ingredients</h3>
+<body class="main">
+	<center><img src="logo1.png" width="125" height="75"></center>
+	<h1 class="mainh">Chocolate Truffle</h1>
+	<img class="mainp" id="mob" src="truffle1.jpg">
+	<h3><u>Ingredients</u></h3>
 	<ul>
 	<li>Chocolate</li>
 	<li>Heavy cream</li>
@@ -15,11 +32,11 @@
 	<li>Vanilla Extract</li>
 </ul>
 <h3><u>Calorie Chart</u></h3>
-<table border="1" cell padding="5">
-	<tr>
-		<th>Nutrients</th>
-		<th>Quantity</th>
-	</tr>
+	<table class="nutrition" border="1" cellpadding="5">
+		<tr>
+			<th>Nutrients</th>
+			<th>Quantity</th>
+		</tr>
 	<tr>
 		<td><b>Carbs</b></td>
 		<td><b>34g</b></td>
@@ -76,21 +93,20 @@
 		<td>Iron</td>
 		<td>3.6mg</td>
 		</tr>
-</table>
-<br>
-<div class="Chocolate truffle">
-<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/truffle/truffle4.jpg" width="300" height="300">
-<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/truffle/truffle2.jpg" width="300" height="300">
-<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/truffle/truffle1.jpg" width="300" height="300">
-</div>
-<br>
+</table><br><br>
+<div class="gallery">
+		<img class="gallery img" src="truffle2.jpg">
+		<img class="gallery img" src="truffle3.jpg">
+		<img class="gallery img" src="truffle4.jpg">
+	</div><br><br><br><br>
 <h3>FUN FACTS</h3>
 <ul type="circle">
-	<li>In winter, when the river froze, the fish-deprived villagers fried potatoes instead. It's said that this dish was discovered by American soldiers in Belgium during World War I and, since the dominant language of southern Belgium is French, they dubbed the tasty potatoes “French” fries!</li>
-	<li>There are actual fry-tasting rooms at the McDonald's headquarters in Illinois. And fry samples are randomly tested there from McDonald's restaurants across America for monthly scrutiny.You are not allowed to wear perfume in those rooms to prevent contamination of the fries during tastings, either!!</li>
-	<li>There is a French fry museum called Frietmuseum in Belgium. Many countries like Canada, Australia, and the Netherlands have French fry vending machines!!!</li>
+	<li>Chocolate truffles were first created in France in 1895.The original chocolate truffles were a ball of chocolate ganache that was dusted with cocoa powder.</li>
+	<li>The term ‘chocolate truffle’ is derived from the edible tuber fungus known as a ‘truffle’, which shares a similar appearance to the confectionery.</li>
+
 </ul>
-	<a href="">
-		<img src=""></a>
+	</div>
+	</div>
+	
 </body>
 </html>
